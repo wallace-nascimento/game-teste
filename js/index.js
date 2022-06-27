@@ -21,9 +21,12 @@ const loop = setInterval(()=>{
 		mario.style.animation = 'nome';
 		mario.style.bottom = `${marioPosition}px`
 
-		mario.src = './imagem/game-over.jpg'
+		mario.src = './imagem/gameOver.png'
 		mario.style.width = '75px'
-		mario.style.marginLeft = '50px'
+		mario.style.marginLeft = '45px'
+
+
+		clearInterval(loop);
 	}
 
 },10)
